@@ -172,10 +172,10 @@ function setColor(block) {
     block.style. background = color
     block.style.boxShadow = `0px 1px 12px 2px ${color}`
 }
-// function removeColor (block) {
-//     block.style.background = "777474"
-//     block.style.boxShadow = ""
-// }
+function removeColor (block) {
+    block.style.background = "#777474"
+    block.style.boxShadow = ""
+}
 function randomColor () {
     let index = Math.round(Math.random() * colorNames.length)
     return colorNames[index]
